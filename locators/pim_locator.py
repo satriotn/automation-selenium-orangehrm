@@ -1,0 +1,18 @@
+# pim_locator.py
+class PimLocators:
+    HEADER = "//h6[@class='oxd-text oxd-text--h6 oxd-topbar-header-breadcrumb-module']"
+    ADD_BUTTON = "//i[@class='oxd-icon bi-plus oxd-button-icon']"
+    HEADER_ADD_EMPLOYEE = "//h6[@class='oxd-text oxd-text--h6 orangehrm-main-title']"
+    FIRSTNAME = "//input[@name='firstName']"
+    MIDDLENAME = "//input[@name='middleName']"
+    LASTNAME = "//input[@name='lastName']"
+    EMPLOYEE_ID = "//div[@class='oxd-grid-2 orangehrm-full-width-grid']//input[@class='oxd-input oxd-input--active']"
+    SWITCH_EMPLOYEE_DETAIL_LOGIN = "//span[@class='oxd-switch-input oxd-switch-input--active --label-right']"
+    USERNAME = "//div[@class='orangehrm-employee-form']/div[@class='oxd-form-row']/div[1]//input[@class='oxd-input oxd-input--active']"
+    PASSWORD = "//div[@class='oxd-grid-item oxd-grid-item--gutters user-password-cell']//input[@class='oxd-input oxd-input--active']"
+    RADIO_BUTTON_STATUS_ENABLE = "//div[@class='--status-grouped-field']/div[1]//span[@class='oxd-radio-input oxd-radio-input--active --label-right oxd-radio-input']"
+    RADIO_BUTTON_STATUS_DISABLE = "//div[@class='--status-grouped-field']/div[2]//span[@class='oxd-radio-input oxd-radio-input--active --label-right oxd-radio-input']"
+    CONFIRM_PASSWORD = "//div[@class='oxd-form-row user-password-row']//div[@class='oxd-grid-item oxd-grid-item--gutters']//input[@class='oxd-input oxd-input--active']"
+    SAVE_BUTTON = "//button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']"
+    ASSERT_FIELD = ".--strong"
+    ASSERT_USER = ".oxd-input-field-error-message"
