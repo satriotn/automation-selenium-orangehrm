@@ -25,27 +25,26 @@ This repository contains automation test scripts for the OrangeHRM web applicati
 ```bash
 automation-selenium-orangehrm/
 │
-├── README.md                # Project documentation
-├── requirements.txt         # Python dependencies
-├── test/                    # Folder for test cases
-│   ├── test_pim.py          # PIM page test cases
-│   ├── test_login.py        # Login page test cases
-│   └── test_pim_negative.py # Negative test cases for PIM page
+├── README.md                
+├── requirements.txt         
+├── test/                    
+│   ├── test_pim.py      
+│   ├── test_login.py      
+│   ├── test_login_negative.py    
+│   └── test_pim_negative.py 
 │
-├── pages/                   # Page objects
-│   ├── login_page.py        # Login page object class
-│   └── pim_page.py          # PIM page object class
+├── pages/                  
+│   ├── login_page.py
+│   ├── navbar_page.py         
+│   └── pim_page.py         
 │
-├── locators/                # Locators for various elements
-│   ├── login_locator.py     # Locators for login page
-│   └── pim_locator.py       # Locators for PIM page
+├── locators/                
+│   ├── login_locator.py
+│   ├── navbar_locator.py  
+│   └── pim_locator.py     
 │
-├── utils/                   # Utility functions
-│   ├── driver_setup.py      # Driver setup (e.g. for initializing browser)
-│   └── helper_functions.py  # Additional helper functions if needed
-│
-└── config/                  # Configuration files (if any, like settings)
-    └── config.py            # Config file for environment variables or settings
+├── utils/                   
+│   ├── driver_setup.py      
 ```
 
 ## ✅ Test Case Coverage
