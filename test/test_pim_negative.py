@@ -78,7 +78,7 @@ class TestPIM(unittest.TestCase):
         self.pim_page.enable_login_details_section()
         time.sleep(3)  # Tunggu animasi toggle
         self.pim_page.fill_login_details(
-            username="budisantoso7",
+            username="budisantoso8",
             password="budi123",
             confirm_password="budi123",
             status="enable"
